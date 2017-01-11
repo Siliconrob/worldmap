@@ -3,7 +3,7 @@ require "kemal"
 # Matches "/repeat"
 ws "/repeat" do |socket|
   # Send welcome message to the client
-  socket.send "Hello from Kemal!"
+  socket.send "Socket open and connected"
 
   # Handle incoming message and echo back to the client
   socket.on_message do |message|
