@@ -2,17 +2,21 @@
 
 Simple map using websocket communication
 
+## Next steps
+
+1. Add leaflet map on html
+2. Communicate leaflet application events as websocket messages
+
 ## Installation
 
-TODO: Write installation instructions here
+Install crystal-lang
+Compile: crystal build --release src/worldmap
+./worldmap
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+Connect with an applicable websocket client
+ws://localhost:3000/repeat - Simple repeat service
 
 ## Contributing
 
@@ -24,4 +28,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[siliconrob]](https://github.com/siliconrob) Nibbles - creator, maintainer
+- [siliconrob](https://github.com/siliconrob) Nibbles - creator, maintainer
