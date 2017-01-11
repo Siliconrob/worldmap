@@ -16,7 +16,8 @@ Compile: crystal build --release src/worldmap
 ## Usage
 
 Connect with an applicable websocket client
-ws://localhost:3000/repeat - Simple repeat service
+
+**ws://localhost:3000/repeat** - Simple repeat service
 
 ## Contributing
 
